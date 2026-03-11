@@ -6,15 +6,15 @@ using namespace std;
 int main()
 {
     int k;
-    cout << "Nhap khoa k (so buoc dich chuyen): "; 
+    cout << "Nhập khóa k: "; 
     cin >> k;
     cin.ignore();
 
     string n;
-    cout << "Nhap doan ma can GIAI MA: ";
+    cout << "Nhập đoạn mã cần giải mã: ";
     getline(cin, n);
 
-    cout << "Ket qua sau khi giai ma: ";
+    cout << "Kết quả sau khi giải mã: ";
     for(int i = 0; i < n.size(); i++)
     {
         char chu = n[i];
